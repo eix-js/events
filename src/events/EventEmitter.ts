@@ -1,5 +1,6 @@
 import { Subject, Subscription, Observable } from "rxjs";
 import { filter, take, map } from "rxjs/operators";
+import { EventData } from "./EventData"
 
 export class EventEmitter<T>{
 

@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neverix/eix-events.git"
+    "url": "git+https://github.com/eix-js/events.git"
   },
   "author": "neverix",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/neverix/eix-events/issues"
+    "url": "https://github.com/eix-js/events/issues"
   },
-  "homepage": "https://github.com/neverix/eix-events#readme",
+  "homepage": "https://github.com/eix-js/events#readme",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",

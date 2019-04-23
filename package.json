@@ -5,7 +5,7 @@
   "main": "dist/main",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ts-node/register test/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/neverix/eix-events/issues"
   },
-  "homepage": "https://github.com/neverix/eix-events#readme"
+  "homepage": "https://github.com/neverix/eix-events#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "source-map-support": "^0.5.12",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
+  }
 }

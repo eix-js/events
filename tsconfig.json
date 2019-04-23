@@ -21,7 +21,8 @@
         "target": "ESNext",
         "outDir": "dist",
         "declaration": true,
-        "module":"es6"
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true
     },
     "include": [
         "src"

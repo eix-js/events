@@ -44,7 +44,10 @@ export class SyncEmitter<T>{
      * @param data the data to be sent to the event
      */
     emit(name: any, data: T) {
-        this.core[name].forEach(val => val(data))
+        // check for undefined
+        if (this.core[name]) {
+            this.core[name].forEach(val => val(data))
+        }
     }
 
     /**

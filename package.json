@@ -5,7 +5,7 @@
   "main": "dist/main",
   "scripts": {
     "build": "tsc",
-    "test": "mocha --require ts-node/register test/**/*.ts"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "source-map-support": "^0.5.12",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.4"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0"
   }
 }
